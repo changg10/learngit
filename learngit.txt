@@ -1,5 +1,6 @@
 ﻿###git add命令实际上就是把要提交的所有修改放到暂存区（Stage）
 git add 文件名
+
 ###把暂存区的所有修改提交到分支
 git commit -m " commit"
 
