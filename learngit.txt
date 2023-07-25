@@ -14,3 +14,8 @@ git push -u origin master
 
 ###本地作了提交，就可以通过命令，把本地master分支的最新修改推送至GitHub
 git push origin master
+
+
+#error: failed to push some refs to 'git@github.com:....."
+这种错误原因：github中的README.md文件不在本地代码目录中
+解决方案：git pull --rebase origin master   (我的成功解决是方法2)
