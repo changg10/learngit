@@ -1,0 +1,15 @@
+﻿###git add命令实际上就是把要提交的所有修改放到暂存区（Stage）
+git add 文件名
+###把暂存区的所有修改提交到分支
+git commit -m " commit"
+
+###it上创建一个仓库，将已经有的本地仓库与之关联
+git remote add origin 仓库url
+
+###把本地仓库的所有内容推送到远程库上
+git push -u origin master
+
+#远程库的名字就是origin
+
+###本地作了提交，就可以通过命令，把本地master分支的最新修改推送至GitHub
+git push origin master
