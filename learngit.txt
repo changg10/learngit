@@ -1,6 +1,9 @@
 ﻿####创建本地仓库 
 git init
 
+git config  user.email"1012983428@qq.com"
+git config  user.name"changg10"
+
 ###将已经有的本地仓库与之关联
 git remote add origin 仓库url
 
@@ -22,3 +25,4 @@ git push origin master
 #error: failed to push some refs to 'git@github.com:....."
 这种错误原因：github中的README.md文件不在本地代码目录中
 解决方案：git pull --rebase origin master   (我的成功解决是方法2)
+git push -u origin master -f 是强制更新
